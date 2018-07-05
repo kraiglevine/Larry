@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	int n,c;
+	cout<<"Ingrese el numero que desea elevar al cuadrado : ";cin>>n;
+	c=n*n;
+	cout<<"El cuadrado del numero es: "<<c;
+	
+	return 0;
+}
